@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let buttons=document.createElement("div")
+        let buttons1=document.createElement("div")
+        let buttons2=document.createElement("div")
+        let buttons3=document.createElement("div")
+        let buttons4=document.createElement("div")
+        for (let index = 0; index < 3; index++) {
+            let button1=document.createElement("button")
+            button1.style.backgroundColor = "gray";  
+            button1.style.width="150px"
+            button1.style.height="150px"
+            button1.style.gap="20px"
+           buttons1.appendChild(button1)
+        }
+        for (let index = 0; index < 3; index++) {
+            let button2=document.createElement("button")
+            button2.style.backgroundColor = "gray";  
+            button2.style.width="150px"
+            button2.style.height="150px"
+            button2.style.gap="20px"
+           buttons2.appendChild(button2)
+        }
+        for (let index = 0; index < 3; index++) {
+            let button3=document.createElement("button")
+            button3.style.backgroundColor = "gray";  
+            button3.style.width="150px"
+            button3.style.height="150px"
+            button3.style.gap="20px"
+           buttons3.appendChild(button3)
+        }
+        for (let index = 0; index < 3; index++) {
+            let button4=document.createElement("button")
+            button4.style.backgroundColor = "gray";  
+            button4.style.width="150px"
+            button4.style.height="150px"
+            button4.style.gap="20px"
+           buttons4.appendChild(button4)
+        }
+        buttons.appendChild(buttons1)
+        buttons1.style.display="flex"
+        buttons1.style.gap="5px"
+        buttons1.style.back
+        buttons.appendChild(buttons2)
+        buttons2.style.display="flex"
+        buttons2.style.gap="5px"
+        buttons.appendChild(buttons3)
+        buttons3.style.display="flex"
+        buttons3.style.gap="5px"
+        buttons.appendChild(buttons4)
+        buttons4.style.display="flex"
+        buttons4.style.gap="5px"
+        buttons.style.display="flex"
+        buttons.style.flexDirection="column"
+        buttons.style.justifyContent="center"
+        buttons.style.alignItems="center"
+        buttons.style.gap="10px"
+        document.body.appendChild(buttons)
+    </script>
+</body>
+</html>
